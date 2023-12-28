@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "boost_pads",
+	"version": "${version}",
+	"name": "Boost Pads",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Thunderstar__"
+	],
+	"contact": {
+		"homepage": "https://youtu.be/dQw4w9WgXcQ",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/boost_pads/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.thunderstar.boost_pads.BoostPads"
+		],
+		"client": [
+			"com.thunderstar.boost_pads.BoostPadsClient"
+		],
+		"fabric-datagen": [
+			"com.thunderstar.boost_pads.BoostPadsDataGenerator"
+		]
+	},
+	"mixins": [
+		"boost_pads.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
