@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "boost_pads:block/boost_pad_lvl0"
+  }
+}

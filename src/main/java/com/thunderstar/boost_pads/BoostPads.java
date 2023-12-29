@@ -1,5 +1,8 @@
 package com.thunderstar.boost_pads;
 
+import com.thunderstar.boost_pads.block.ModBlocks;
+import com.thunderstar.boost_pads.item.ModItemGroups;
+import com.thunderstar.boost_pads.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class BoostPads implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("DEJA VU!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

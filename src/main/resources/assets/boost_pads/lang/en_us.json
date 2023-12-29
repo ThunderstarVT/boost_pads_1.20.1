@@ -1,0 +1,14 @@
+{
+  "item.boost_pads.smithing_template_boost_pad_upgrade": "Smithing Template",
+
+  "block.boost_pads.boost_pad_lvl0": "Boost Pad",
+
+  "tooltip.boost_pads.smithing_template_boost_pad_upgrade.tooltip0": "Boost Pad Upgrade",
+  "tooltip.boost_pads.smithing_template_boost_pad_upgrade.tooltip1": "",
+  "tooltip.boost_pads.smithing_template_boost_pad_upgrade.tooltip2": "Applies to:",
+  "tooltip.boost_pads.smithing_template_boost_pad_upgrade.tooltip3": " Smooth Stone & Boost Pads",
+  "tooltip.boost_pads.smithing_template_boost_pad_upgrade.tooltip4": "Ingredients:",
+  "tooltip.boost_pads.smithing_template_boost_pad_upgrade.tooltip5": " [INGREDIENT]",
+
+  "itemgroup.boost_pad_group": "Boost Pads"
+}

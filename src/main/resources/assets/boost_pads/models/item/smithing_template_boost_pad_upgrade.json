@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "boost_pads:item/smithing_template_boost_pad_upgrade"
+  }
+}
