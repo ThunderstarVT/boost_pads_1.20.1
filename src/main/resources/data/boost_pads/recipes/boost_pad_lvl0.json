@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "category": "misc",
+  "template": {
+    "item": "boost_pads:smithing_template_boost_pad_upgrade"
+  },
+  "base": {
+    "item": "minecraft:smooth_stone"
+  },
+  "addition": {
+    "item": "minecraft:gold_nugget"
+  },
+  "result": {
+    "item": "boost_pads:boost_pad_lvl0",
+    "count": 1
+  }
+}
