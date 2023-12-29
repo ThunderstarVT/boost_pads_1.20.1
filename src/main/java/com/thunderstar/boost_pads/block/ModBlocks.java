@@ -15,7 +15,7 @@ public class ModBlocks {
 
     // Blocks
     public static final Block BOOST_PAD_LVL0 = registerBlock("boost_pad_lvl0",
-            new Block(FabricBlockSettings.copyOf(Blocks.BLUE_ICE)
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)
                     .slipperiness(1.0f)
                     .luminance(state -> 0)));
 
